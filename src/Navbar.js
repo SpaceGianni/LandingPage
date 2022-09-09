@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Nabvar() {
     return <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
