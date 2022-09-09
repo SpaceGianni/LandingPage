@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import './Navbar.js';
+import './Jumbotron';
+import './Cards';
 
 const App = () => {
     return (
