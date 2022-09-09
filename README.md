@@ -274,7 +274,7 @@ Configurar "scripts" en el ***package.json***
 
 ## Instalar "Bootstrap" (opcional)
 
-    $ npm i --save bootstrap
+    $ npm i --save bootstrap@5.1
 
 Configurar bootstrap en el ***index.js***
 ```javascript
