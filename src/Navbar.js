@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function Nabvar() {
-    return <nav className="navbar navbar-expand-lg navbar-dark bg-dark  col-md-12">
-        <div className="container-fluid">
+    return <nav className="navbar navbar-expand-lg navbar-dark bg-dark  col-md-12 px-5">
+        <div className="container-fluid mx-5">
             <a className="navbar-brand d-flex align-items-center" href="https://getbootstrap.com/" target="_blank">Start Bootstrap</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
