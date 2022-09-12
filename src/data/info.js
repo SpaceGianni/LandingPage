@@ -29,7 +29,7 @@ export let cards = [
  ]
 
 export let footer = {
-    text: "Made with love by the Girl's team : Ginicode, JM,  - 2022"
+    text: "Made with love by the Girl's team : Ginicode, JM, Nico  - 2022"
 
 }
 
