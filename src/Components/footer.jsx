@@ -19,5 +19,6 @@ Footer.propTypes = {
 };
 
 
-<Footer copyright="Made with love by the Girl's team : Ginicode, - 2022"/>
+<Footer copyright="Made with love by the Girl's team : Ginicode, JM,  - 2022"/>
 
+export default Footer;
