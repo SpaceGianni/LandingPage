@@ -9,10 +9,10 @@ import './App.css';
 export function Main({ Jumbotron, Navbar, Cards, Footer }) {
     return (
         <>
-            <Navbar navbar={navbar} />
-            <Jumbotron jumbotron={jumbotron} />
-            <Cards cards={cards} />
-            <Footer footer={footer} />
+            <Navbar navbar={Navbar} />
+            <Jumbotron jumbotron={Jumbotron} />
+            <Cards cards={Cards} />
+            <Footer footer={Footer} />
         </>
     )
 }
