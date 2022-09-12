@@ -13,7 +13,7 @@ const Cards = ({cards}) => {
                 <p className="card-text text-center py-2 px-4"><small>{cards.description}</small></p>
             </div>
             <div className="card-footer border mb-5 d-flex justify-content-center">
-              <a href={cards.buttonURL} className="btn btn-primary">{cards.buttonLabel}</a>
+              <a href={Cards.buttonURL} className="btn btn-primary">{cards.buttonLabel}</a>
             </div>
         </div>
     </div> 
