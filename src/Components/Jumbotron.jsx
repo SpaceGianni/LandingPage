@@ -12,9 +12,6 @@ const Jumbotron = ({ jumbotron }) => {
 				)
 			})
 		}
-		{/* <a className="btn btn-primary btn-lg" href={jumbotron.button.link} role="button">
-		{jumbotron.button.label}
-	</a> */}
 	</div>)
 
 };

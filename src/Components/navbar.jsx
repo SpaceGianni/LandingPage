@@ -12,7 +12,7 @@ const Navbar = ({ navbar }) => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 dropdown-menu-end">
                     {
-                        Navbar.options.map(({ link, label }, index) => {
+                        navbar.options.map(({ link, label }, index) => {
                             return (
                                 <li className="nav-item" key={index}>
                                     <a className="nav-link" href={link} aria-current={index === 0 ? "page" : null} >{label}</a>
