@@ -1,33 +1,38 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Card from "./Card";
 
-const Cards = ({cards}) => {
-    return (
-    <div className="row mt-4">
-    <div className="col-12 col-md-3 gx-4">
-        <div className="card border border-0">
-            <div className="card-header border border-0 rounded-0 d-flex align-items-center justify-content-center fs-3 text-secondary"
-                style={{height:"200px", width:"100%", background: "lightgray"}}>{cards.cardHeader}</div>
-            <div className="card-body  border px-0">
-                <h5 className="card-title text-center fs-4 text text-dark">{cards.title}</h5>
-                <p className="card-text text-center py-2 px-4"><small>{cards.description}</small></p>
-            </div>
-            <div className="card-footer border mb-5 d-flex justify-content-center">
-              <a href={cards.buttonURL} className="btn btn-primary">{cards.buttonLabel}</a>
-            </div>
-        </div>
-    </div> 
-    </div> 
-    );
-}
-
-Cards.propTypes = {
-cards: PropTypes.array.isRequired
+const Cards = ({ cards }) => {
+  return (
+    <div className="container col-md-10">
+      <div className="row mt-4 g-5  justify-content-center">
+        
+          
+          {cards.map(
+            (
+              { cardHeader, title, description, buttonURL, buttonLabel },
+              index
+            ) => {
+              return (
+                <Card
+                  cardHeader={cardHeader}
+                  title={title}
+                  description={description}
+                  buttonURL={buttonURL}
+                  buttonLabel={buttonLabel}
+                  key={index}
+                />
+              );
+            }
+          )}
+        
+      </div>
+    </div>
+  );
 };
 
+Cards.propTypes = {
+  cards: PropTypes.array.isRequired,
+};
 
 export default Cards;
-
-
-
-
