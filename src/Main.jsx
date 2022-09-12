@@ -6,7 +6,7 @@ import Cards from './Components/Cards';
 import './App.css';
 /* import img1 from './assets/img/01.jpg' */
 
-export function Main({ Jumbotron, Navbar, Cards, Footer }) {
+export function Main({ jumbotron, navbar, cards, footer }) {
     return (
         <>
             <Navbar navbar={navbar} />
