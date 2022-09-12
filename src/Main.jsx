@@ -3,7 +3,6 @@ import Footer from './components/Footer';
 import Jumbotron from './components/Jumbotron';
 import Navbar from './components/Navbar';
 import Cards from './components/Cards';
-import Footer from './components/Footer'
 import './App.css';
 /* import img1 from './assets/img/01.jpg' */
 
