@@ -9,11 +9,11 @@ export let Navbar = {
 }
 
 export let Jumbotron = {
-    title: 'One Page Wonder 4Geeks',
-    subtitle: 'Will Rock Your Socks Off',
+    title: 'A Warm Welcome!',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
     button: {
-        link: '#scroll',
-        label: 'Learn more'
+        link: '/#',
+        label: 'Call to action!'
     }
 }
 
