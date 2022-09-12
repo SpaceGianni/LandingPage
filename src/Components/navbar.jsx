@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from "prop-types";
 
 
-const Nabvar= (props)=> {
+const Navbar= (props)=> {
     return (<nav className="navbar navbar-expand-lg navbar-dark bg-dark  col-md-12 px-5">
         <div className="container-fluid mx-5">
             <a className="navbar-brand d-flex align-items-center" href= {props.brandUrl} target="_blank">{props.brandTitle}</a>
@@ -48,3 +48,5 @@ navItem2 ="About"
 navItem3 ="Services"
 navItem4="Contact"
 />
+
+export default Navbar;
