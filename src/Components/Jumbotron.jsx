@@ -1,25 +1,27 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Jumbotron = (props) => {
+const Jumbotron = ({ jumbotron }) => {
 	return (<div className="jumbotron col-md-10 bg-light mx-auto px-5 pb-5 pt-3 ">
-	<h1 className="display-4">{props.title}</h1>
-	<p className="lead">{props.description}</p>
-	<a className="btn btn-primary btn-lg" href={props.buttonUrl} role="button">
-		{props.buttonLabel}
-	</a>
-</div>)
-	
+		<h1 className="display-4">{jumbotron.title}</h1>
+		<p className="lead">{jumbotron.subtitle}</p>
+		{
+			jumbotron.options.map(({ link, label }, index) => {
+				return (
+					<li className="btn btn-primary btn-lg" role="button" key={index}><a className="nav-link" href={link}>{label}</a></li>
+				)
+			})
+		}
+		{/* <a className="btn btn-primary btn-lg" href={jumbotron.button.link} role="button">
+		{jumbotron.button.label}
+	</a> */}
+	</div>)
+
 };
 
 Jumbotron.propTypes = {
-	title: PropTypes.string,
-	description:PropTypes.string,
-	buttonUrl: PropTypes.string,
-	buttonLabel: PropTypes.string
+	jumbotron: PropTypes.object.isRequired,
 };
 
-<Jumbotron title="A Warm Welcome!" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." buttonUrl="#" buttonLabel="Call to action!"/>
-
-
+export default Jumbotron;
 
