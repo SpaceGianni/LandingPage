@@ -1,7 +1,6 @@
 body {
     background-color: white;
     margin: 0;
-    /* padding-top: 60px; */
 }
 
 .navbar {
@@ -11,14 +10,4 @@ body {
     position: relative;
     padding-top: 96px !important;
     
-  }
-  /* header.masthead .masthead-content {
-    z-index: 1;
-    position: relative;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 2rem;
-  } */
+}
