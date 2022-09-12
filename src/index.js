@@ -6,7 +6,7 @@ import './App.css';
 // import App from './App';
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
-import Cards from './Cards';
+import Cards from './Cards'
 
 // const container = document.querySelector('#root');
 const navbar = document.querySelector('#navbar');
