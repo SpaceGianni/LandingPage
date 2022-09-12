@@ -29,6 +29,7 @@ export let cards = [
  ]
 
 export let footer = {
-    text: "Copyright \u00A9 Made with love by the Girl's team : Ginicode, - 2022"
+    text: "Made with love by the Girl's team : Ginicode, JM,  - 2022"
+
 }
 
