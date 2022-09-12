@@ -14,7 +14,7 @@ const Navbar = ({ navbar }) => {
                     {
                         navbar.options.map(({ link, label }, index) => {
                             return (
-                                <li className="nav-item" key={index}>
+                                <li className={index === 0 ? "nav-item active": "nav-item"} key={index}>
                                     <a className="nav-link" href={link} aria-current={index === 0 ? "page" : null} >{label}</a>
                                 </li>
                             )
