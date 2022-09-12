@@ -5,5 +5,9 @@ body {
 
 .navbar {
     background-color: #414141 !important;
-
+}
+.jumbotron {
+    position: relative;
+    padding-top: 96px !important;
+    
 }
