@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Footer = (props) => {
@@ -19,10 +18,6 @@ Footer.propTypes = {
 	copyright: PropTypes.string,
 };
 
-ReactDOM.render(
-	<Footer
-        copyright="Made with love by the Girl's team : Ginicode, - 2022"
-	/>,
 
-	document.querySelector("#footer")
-);
+<Footer copyright="Made with love by the Girl's team : Ginicode, - 2022"/>
+
