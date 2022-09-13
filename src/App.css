@@ -1,13 +1,16 @@
 body {
     background-color: white;
-    margin: 0;
+    padding-top: 96px !important;
+    
+    
 }
 
 .navbar {
     background-color: #414141 !important;
 }
 .jumbotron {
-    position: relative;
-    padding-top: 96px !important;
+    background: rgb(244, 244, 244) !important;
+    
+    
     
 }
